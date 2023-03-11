@@ -12,6 +12,9 @@
         android:theme="@style/Theme.1D_Project"
         tools:targetApi="31">
         <activity
+            android:name=".AllJourneysActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

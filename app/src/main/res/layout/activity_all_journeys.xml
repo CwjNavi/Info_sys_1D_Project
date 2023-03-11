@@ -4,6 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AllJourneys">
+    tools:context=".AllJourneysActivity">
 
+    <TextView
+        android:id="@+id/AllJourneysHeader"
+        android:layout_width="189dp"
+        android:layout_height="52dp"
+        android:text="All Journeys"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
